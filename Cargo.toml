@@ -1,0 +1,11 @@
+[package]
+name = "ini-piyo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+colored = "2"
+indexmap = "2.12.1"
+
+[dev-dependencies]
+rustfmt = "0.10.0"
