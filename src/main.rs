@@ -44,6 +44,7 @@ impl Config {
 }
 
 fn main() {
+    // Test
     let config = Config::from_args(env::args()).unwrap_or_else(|err| {
         eprintln!("Error: {}", err);
         eprintln!("Usage: tool <base_file> <target_file> [--check|--merge]");
